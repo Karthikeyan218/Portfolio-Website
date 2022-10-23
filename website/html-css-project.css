@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h2{
+    color:#FFB6C1 ;
+    text-shadow: #black;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Tree.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav ul {
+    float: right;
+    display: flex;
+}
+
+nav ul li{
+padding: 10px 20px;   
+}
+nav ul li a{
+    color: white;
+    font-weight:bold;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: red;
+    transition: 1s;
+}
+.btn{
+    color: white;
+    font-weight:bold;
+    text-decoration: none;
+    background-color: rgb(255, 141, 160);
+    border: 3px solid lightpink;
+    border-radius: 20% ;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+h3{
+    position: absolute;
+    top: 430px;
+    left: 70px;
+    text-transform: uppercase;
+    color: pink;
+}
+.input{
+    bo
+}
+.input {
+    position: absolute;
+    left: -240px;
+    top: 430px;
+    box-shadow: #FFB6C1;
+transform: translate(100%,100%);
+}
+.content form input:first-child{
+    border-radius: 40px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 20px red;
+    padding: 15px 120px 13px 25px;
+    display: inline-block;
+    position: absolute;
+    top: 50;
+    left: 290px;
+}
+.content form input:last-child{
+    border: none;
+    border-radius: 40px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px 10px 14px;
+    position: absolute;
+    top: 56;
+    left: 527px;
+    float: left;
+    box-shadow: 0px 0px 20px red;
+}
+.main img{
+ height: 800px;
+ width: 400px;
+}
+.imgcon{
+   color: white;
+   
+}
+.about{
+   
+    background-color: black;
+}
+
+.main{
+    display: flex;
+}
+.imgcon{
+    margin-left: 40px;
+
+}
+/*******************************************************************/
+.skills{
+    background-color: black;
+    width: 100%;
+    
+}
+.title h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.card{
+    color: white;
+   height: 300px;
+   width: 270px;
+  background-color: gray ;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.box{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card h4{
+    padding: 40px;
+    text-align: center;
+}
+.para{
+    text-align: justify;
+}
+.para .button{
+    border: 5px solid pink;
+    background-color: #FFB6C1;
+    border-radius: 25%;
+    padding:5px 10px;
+    color: black;
+}
+.card i{
+    color: pink;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+.para .button:hover{
+    background-color: transparent;
+    border: 2px solid pink;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+/**************************************************************************/
+.Hire{
+    background-color: black;
+    width: 1350px;
+    height: 200px;
+   
+}
+.Hire h1{
+    
+  color: #FFB6C1;
+   text-align: center;
+}
+.Hire .button{
+    color: white;
+    background-color: #FFB6C1;
+    border: 3px solid pink;
+    border-radius: 20% ;
+   padding: 5px 10px ;
+}
+.Hire .button:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid pink;
+    cursor: pointer;
+}
+.foot{
+    height: 150;
+    width:1350 ;
+    text-align: center;
+    color: pink;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.foot .sm a{
+    padding:6;
+    width: 30px ;
+    height:30px;
+    display: inline-block;
+    background:pink;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
